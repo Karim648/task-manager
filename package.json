@@ -1,0 +1,20 @@
+{
+  "name": "task-manager",
+  "version": "1.0.0",
+  "description": "A Task Manager API built with Node.js, Express.js, and MongoDB. This RESTful backend allows users to create, read, update, and delete tasks (CRUD operations). Perfect as a standalone API or backend for a frontend app or mobile client.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Karim Youssef",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.17.0",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+
+form {
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+input {
+    height: 2.4rem;
+    width: 20rem;
+    padding: 1.5rem 1.4rem;
+    font-size: 1.15rem;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 0.6rem 1rem;
+    font-size: 1.15rem;
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+button:hover,
+button:focus,
+button:active {
+    background-color: hsl(240, 100%, 35%);
+}
+
+.container {
+    background-color: white;
+    width: 50vw;
+    padding: 1.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 3px hsl(0, 0%, 70%)
+}
+
+.task-section {
+    margin-top: 2rem;
+    padding: 0.4rem;
+}
+
+.task-div {
+    background-color: white;
+    padding: 0.15rem 1.4rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 3px hsl(0, 0%, 70%)
+}
+
+.buttons {
+    margin-left: auto;
+}
+
+.edit,
+.delete {
+    background: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.edit {
+    color: green;  
+}
+
+.edit:hover,
+.edit:focus,
+.edit:active,
+.delete:hover,
+.delete:focus,
+.delete:active {
+    font-size: 2rem;
+    background: none;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 96%);
+}
